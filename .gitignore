@@ -1,0 +1,9 @@
+.idea/
+.ipynb_checkpoints/
+node_modules/
+dataset/
+presentation/
+report/
+*.bin
+*.kra
+*.kra~

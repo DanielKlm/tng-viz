@@ -1,0 +1,22 @@
+{
+  "name": "practical",
+  "version": "0.0.1",
+  "description": "bottom text",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsfive": "*",
+    "linear-octree": "*",
+    "noisejs": "*",
+    "sparse-octree": "*",
+    "three": "*"
+  },
+  "devDependencies": {
+    "vite": "*",
+    "vite-plugin-node-polyfills": "^0.16.0"
+  }
+}
