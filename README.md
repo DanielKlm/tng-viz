@@ -8,7 +8,7 @@ Run ```npm install``` in the repository folder to automatically install javascri
 Get a dataset from https://www.tng-project.org/data/ and put it in a folder ```dataset```. For the TNG-50-4 dataset at timestep 0, the folder structure should be ```dataset/tng-50-4-0/snap_000.X.hdf5``` where X goes from 0 to 10.
 
 Adjust the variables at the top of ```convert.py``` to point at the dataset files.
-Run ```convert.py``` and wait for the conversion to complete. For the TNG-50-4 dataset at a single timestep, this will take a few hours. The TNG-50-3 datasets need multiple days for conversion.
+Run ```convert.py``` and wait for the conversion to complete. For the TNG-50-4 dataset at a single timestep, this will take a few hours. The TNG-50-3 datasets need multiple days for conversion. Move the converted files into the folder containing the TNG dataset files.
 Adjust the variables at the top of ```dataset.js``` to point to the converted dataset files. Adjust the block counts to correspond to the block counts set in ```convert.py```.
 
 Run ```npx vite``` to start the server.
